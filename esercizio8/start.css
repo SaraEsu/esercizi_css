@@ -1,0 +1,66 @@
+
+body{
+    display: flex;
+    gap: 50px;
+    width: 100vw;
+    height: 100vh;
+}
+#yellow {
+    background-color: #ffff92;
+    height: 100%;
+    width: 16%;
+    order: 1;
+  }
+  #red {
+    background-color: #ff919c;
+    height: 100%;
+    width: 16%;
+    order: 2;
+  }
+  
+
+#green {
+    background-color: #8ffda7;
+    height: 100%;
+    width: 16%;
+    order: 3;
+  }
+
+
+  
+  #orange {
+    background-color: #ffc788;
+    height: 100%;
+    width: 32%;
+    order: 4;
+  }
+  
+  
+  
+  
+  #blue {
+    background-color: #98d2ff;
+    height: 100%;
+    width: 16%;
+    order: 5;
+  }
+
+ ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+  
+  section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  li{
+      padding: 40px;
+      background-color: white;
+      list-style: none;
+      width: max-content;
+
+  }
